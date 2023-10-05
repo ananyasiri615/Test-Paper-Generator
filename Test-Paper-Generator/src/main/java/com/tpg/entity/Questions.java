@@ -1,12 +1,12 @@
 package com.tpg.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "questions")
@@ -21,10 +21,6 @@ public class Questions {
     private String option4;
     private String correct_op;
     private int level;
-    
-    @ManyToOne
-    @JoinColumn(name = "admin_id")
-    private Admin admin;
 
     @ManyToOne
     @JoinColumn(name = "subject_id")
@@ -34,7 +30,7 @@ public class Questions {
     }
 
 	public Questions(int q_id, String actual_qns, String option1, String option2, String option3, String option4,
-			String correct_op, int level, Admin admin, Subject subject) {
+			String correct_op, int level, Subject subject) {
 		super();
 		this.q_id = q_id;
 		this.actual_qns = actual_qns;
@@ -44,7 +40,6 @@ public class Questions {
 		this.option4 = option4;
 		this.correct_op = correct_op;
 		this.level = level;
-		this.admin = admin;
 		this.subject = subject;
 	}
 
@@ -112,14 +107,6 @@ public class Questions {
 		this.level = level;
 	}
 
-	public Admin getAdmin() {
-		return admin;
-	}
-
-	public void setAdmin(Admin admin) {
-		this.admin = admin;
-	}
-
 	public Subject getSubject() {
 		return subject;
 	}
@@ -132,7 +119,7 @@ public class Questions {
 	public String toString() {
 		return "Questions [q_id=" + q_id + ", actual_qns=" + actual_qns + ", option1=" + option1 + ", option2="
 				+ option2 + ", option3=" + option3 + ", option4=" + option4 + ", correct_op=" + correct_op + ", level="
-				+ level + ", admin=" + admin + ", subject=" + subject + "]";
+				+ level + ", subject=" + subject + "]";
 	}
     
     
