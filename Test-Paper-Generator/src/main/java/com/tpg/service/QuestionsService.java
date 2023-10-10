@@ -54,4 +54,34 @@ public class QuestionsService {
     public List<Questions> findAll() {
         return questionsRepository.findAll();
     }
+    
+//    public List<Questions> getRandomQuestionsByDifficulty(int numQuestions, String difficulty) {
+//        List<Questions> questions = questionsRepository.findByDifficulty(difficulty);
+//        return getRandomQuestions(questions, numQuestions);
+//    }
+//
+//    public List<Questions> getRandomQuestions(int numQuestions) {
+//        List<Questions> allQuestions = questionsRepository.findAll();
+//        return getRandomQuestions(allQuestions, numQuestions);
+//    }
+
+//    private List<Questions> getRandomQuestions(List<Questions> questions, int numQuestions) {
+//        // Shuffle the list to randomize the order
+//        Random random = new Random();
+//        for (int i = questions.size() - 1; i > 0; i--) {
+//            int index = random.nextInt(i + 1);
+//            Questions temp = questions.get(index);
+//            questions.set(index, questions.get(i));
+//            questions.set(i, temp);
+//        }
+//
+//        // Return the specified number of random questions
+//        return questions.subList(0, Math.min(numQuestions, questions.size()));
+//    }
+
+
+
+
+
+
 }
