@@ -8,8 +8,5 @@
 ![Screenshot 2023-11-23 132050](https://github.com/ananyasiri615/Test-Paper-Generator/assets/93749572/a8562f14-e0e9-4d0d-91fb-ad0c384aaca4)
 ![Screenshot 2023-11-23 132107](https://github.com/ananyasiri615/Test-Paper-Generator/assets/93749572/b088fce3-2510-46c4-b275-287f8526c834)
 ![Screenshot 2023-11-23 132205](https://github.com/ananyasiri615/Test-Paper-Generator/assets/93749572/8b847442-14e0-40ec-bdd8-958f9e6e0fc2)
-![Screenshot 2023-11-23 132227](https://github.com/ananyasiri615/Test-Paper-Generator/assets/93749572/775c37f0-91ab-4b71-a4db-bdf89e0cfc5a)
-![Screenshot 2023-11-23 132237](https://github.com/ananyasiri615/Test-Paper-Generator/assets/93749572/40d901ca-8da2-4827-8956-94df63b1677b)
-![Screenshot 2023-11-23 132310](https://github.com/ananyasiri615/Test-Paper-Generator/assets/93749572/f5acd651-c153-488a-b8e2-bb72a69aedd9)
 ![Screenshot 2023-11-23 132640](https://github.com/ananyasiri615/Test-Paper-Generator/assets/93749572/d88dcb0a-576b-4148-b53c-f12269a0b194)
 
