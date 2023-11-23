@@ -3,7 +3,8 @@ create database TPG;
 use tpg;
 show tables;
 show databases;
-select * from questions;
-drop table admin,questions,section,testpaper,subject;
+select * from candiadate;
+drop table section;
+drop table admin,questions,section,testpaper,subject,candidate;
 
-ALTER TABLE questions MODIFY COLUMN actual_qns VARCHAR(1000);
+ALTER TABLE questions MODIFY COLUMN actual_qns VARCHAR(700);
